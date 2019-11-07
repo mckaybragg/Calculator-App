@@ -1,0 +1,12 @@
+.Screen {
+    height: 25vh;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    overflow: hidden;
+    padding: 0 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
