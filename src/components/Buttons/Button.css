@@ -1,0 +1,46 @@
+.Button {
+    width: 25%;
+    height: 100%;
+    font-size: 20pt;
+    background-color: white;
+    outline: none;
+    border: 1px solid transparent;
+    transition: all .5s;
+}
+
+.Button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.Button:active {
+    transform: scale(.75);
+}
+
+.Button-primary {
+    color: crimson;
+}
+
+.Button-primary:hover {
+    background-color: lightpink;
+    color: crimson;
+}
+
+.Button-operator {
+    color: darkcyan;
+}
+
+.Button-operator:hover {
+    background-color: lightgreen;
+    color: darkcyan;
+}
+
+.Button-large {
+    color: burlywood;
+    width: 50%;
+}
+
+.Button-large:hover {
+    background-color: blanchedalmond;
+    color: burlywood;
+}
